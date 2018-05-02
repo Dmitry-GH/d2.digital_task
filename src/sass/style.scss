@@ -1,0 +1,12 @@
+@import '~bulma';
+
+.FilmCard{
+    margin: 15px 0;
+    .box{
+        cursor: pointer;
+        .title{
+            margin-top: 5px;
+            text-align: center;
+        }
+    }
+}
