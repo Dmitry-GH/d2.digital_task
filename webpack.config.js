@@ -3,7 +3,7 @@ var webpack = require('webpack');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-var DIST_DIR = path.resolve(__dirname, "dist");
+var DIST_DIR = path.resolve(__dirname, "docs");
 var SRC_DIR = path.resolve(__dirname, "src");
 
 module.exports = {
